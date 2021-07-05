@@ -7,7 +7,7 @@ h1{
     font-size:50px;
 }
 p{
-    font-size:30px;
+    font-size:20px;
     color:orange;
 }
 #skip{
@@ -22,15 +22,25 @@ p{
     margin-right: 10%;
     padding-right: 10%;
 }
-.section{
+section{
     display:flex;
+    margin-bottom: 100px;
 }
 .click{
     text-decoration: none;
     color: whitesmoke;
     padding: 10px 20px;
     margin-left: 100px;
+    margin-top: 300px;
     border-radius:50px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient( red,yellow);
     font-weight: 800;
-}  
+} 
+#person{
+    width: 60%;
+}
+
+.background{
+    background-image:url(images/shapes/7.png);
+    background-repeat:no-repeat;
+}
