@@ -22,7 +22,7 @@ p{
     margin-right: 10%;
     padding-right: 10%;
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 100px;
 }
@@ -37,10 +37,12 @@ section{
     font-weight: 800;
 } 
 #person{
-    width: 60%;
+    width: 70%;
 }
-
 .background{
     background-image:url(images/shapes/7.png);
-    background-repeat:no-repeat;
+    background-repeat:no-repeat;   
+}
+#center{
+    text-align: center; 
 }
